@@ -1,5 +1,13 @@
 body{
-    background-color: #68B0AB;
-    
+    background-color: #68B0AB;  
 }
 
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 50px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    border-color: white;
+}
