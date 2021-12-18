@@ -5,9 +5,13 @@ body{
 hr{
     margin-top: 50px;
     margin-bottom: 50px;
-    border-width: 50px;
+    border-width: 15px;
     border-style: none;
     border-top-style: dotted;
     width: 30%;
     border-color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
 }
