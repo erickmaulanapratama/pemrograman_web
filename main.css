@@ -45,6 +45,6 @@ ol, ul, img, p{
     text-decoration: none;
 }
 
-#navbar li:hover{
-    background-color: black;
+#navbar ul:last-child {
+    float: right;
 }
