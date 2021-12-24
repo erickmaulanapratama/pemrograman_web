@@ -93,3 +93,14 @@ tr:hover{
     width: 100%;
     margin-bottom: auto;
 }
+
+.form-register{
+    position: static;
+    margin-bottom: 100px;
+    margin-bottom: 40px;
+}
+
+.content-form{
+    max-width: 70%;
+    margin: auto;
+}
