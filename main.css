@@ -120,3 +120,16 @@ tr:hover{
     height: 90vh;
     margin-bottom: 100px;
 }
+
+.my-portofolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.my-portofolio img{
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 25px;
+}
