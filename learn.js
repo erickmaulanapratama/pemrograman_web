@@ -60,8 +60,8 @@ function luasSegitiga(alas,tinggi){
 }
 console.log('Luas Segitiga = ', luasSegitiga(7,8)); // Luas Segitiga = 28
 
-function volumeBalok(p,l,t){
-    let volumeBalok = p * l * t;
+function volumeBalok(panjang,lebar,t){
+    let volumeBalok = panjang * lebar * t;
     return volumeBalok;
 }
 console.log('Volume Balok = ', volumeBalok(4,5,6)); // Volume Balok = 120
@@ -84,3 +84,28 @@ buah.shift(); // menampilkan dan menghapus item awal dari array
 console.log(buah); // mengecek perubahan
 console.log(buah.sort()); // mengurutkan Array
 console.log(buah.reverse()); // membalikkan urutan Array
+
+let profil = {
+    namaDepan : "Erick",
+    namaBelakang : "Maulana",
+    alamat : "Pekanbaru",
+    kontak : "081261826687",
+    pekerjaan : "Mahasiswa",
+    namaLengkap : function(){
+        return this.namaDepan + " " + this.namaBelakang;
+    }
+}
+
+console.log(profil.namaDepan); // menampilkan nama depan
+console.log(profil.namaBelakang); // menampilkan nama belakang
+console.log(profil.alamat); // menampilkan alamat
+console.log(profil.kontak); // menampilkan kontak
+console.log(profil.pekerjaan); // menampilkan pekerjaan 
+console.log(profil.namaLengkap()); // menampilkan nama lengkap
+
+console.log(profil["namaDepan"]); // menampilkan nama depan
+console.log(profil["namaBelakang"]); // menampilkan nama belakang
+console.log(profil["alamat"]); // menampilkan alamat
+console.log(profil["kontak"]); // menampilkan kontak
+console.log(profil["pekerjaan"]); // menampilkan pekerjaan
+console.log(profil["namaLengkap"]()); // menampilkan nama lengkap
