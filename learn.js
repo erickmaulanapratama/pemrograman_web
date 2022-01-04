@@ -52,19 +52,35 @@ function luasPersegi(sisi){
     let luasPersegi = sisi * sisi;
     return luasPersegi;
 }
+console.log('Luas Persegi = ', luasPersegi(9)); // Luas Persegi = 81
 
-console.log('Luas Persegi = ',luasPersegi(9)); // Luas Persegi = 81
-
-function luasSegitiga(a,t){
-    let luasSegitiga = 0.5 * a * t;
+function luasSegitiga(alas,tinggi){
+    let luasSegitiga = 0.5 * alas * tinggi;
     return luasSegitiga;
 }
-
 console.log('Luas Segitiga = ', luasSegitiga(7,8)); // Luas Segitiga = 28
 
 function volumeBalok(p,l,t){
     let volumeBalok = p * l * t;
     return volumeBalok;
 }
-
 console.log('Volume Balok = ', volumeBalok(4,5,6)); // Volume Balok = 120
+
+var buah = ["Apel", "Jeruk", "Mangga", "Pisang"];
+console.log(buah[0]); // menampilkan Apel
+console.log(buah[1]); // menampilkan Jeruk
+console.log(buah[2]); // menampilkan Mangga
+console.log(buah[3]); // menampilkan Pisang
+buah[1] = "Anggur"; // mengganti Jeruk menjadi Anggur
+console.log(buah); // mengecek perubahan
+buah.push("Pepaya"); // menambah Pepaya di akhir Array
+console.log(buah); // mengecek perubahan
+buah.pop("Pepaya"); // melihat dan menghapus item dari Array
+console.log(buah); // mengecek perubahan
+console.log('Panjang Array = ', buah.length); // menghitung panjang Array
+buah.unshift("Semangka"); // menambah Semangka di awal Array
+console.log(buah); // mengecek perubahan
+buah.shift(); // menampilkan dan menghapus item awal dari array
+console.log(buah); // mengecek perubahan
+console.log(buah.sort()); // mengurutkan Array
+console.log(buah.reverse()); // membalikkan urutan Array
