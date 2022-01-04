@@ -47,3 +47,24 @@ console.log('false || true =', false || true); // menampilkan true
 console.log('false || false =', false || false); // menampilkan false
 console.log('!true =', !true); // menampilkan false
 console.log('!false =', !false); // menampilkan true
+
+function luasPersegi(sisi){
+    let luasPersegi = sisi * sisi;
+    return luasPersegi;
+}
+
+console.log('Luas Persegi = ',luasPersegi(9)); // Luas Persegi = 81
+
+function luasSegitiga(a,t){
+    let luasSegitiga = 0.5 * a * t;
+    return luasSegitiga;
+}
+
+console.log('Luas Segitiga = ', luasSegitiga(7,8)); // Luas Segitiga = 28
+
+function volumeBalok(p,l,t){
+    let volumeBalok = p * l * t;
+    return volumeBalok;
+}
+
+console.log('Volume Balok = ', volumeBalok(4,5,6)); // Volume Balok = 120
